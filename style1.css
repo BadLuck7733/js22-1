@@ -1,0 +1,27 @@
+h1{
+    font-size: 40px;
+    font-family: 'Montserrat Alternates Light'
+}
+.abz1 {
+    font-size: 35px;
+    color: gray;
+}
+.black_abz {
+    color : #000;
+}
+.dark-grey_abz{
+    color :darkgray
+}
+h2 {
+    font-family: 'Montserrat Alternates Light' 
+}
+.end {
+    color: gray;
+    font-size: 35px;
+    text-align: right;
+}
+.ist {
+    color : #ff0000 ;
+    font-size: 15px;
+    text-align: center;
+}

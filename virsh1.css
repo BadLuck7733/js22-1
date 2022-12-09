@@ -1,0 +1,32 @@
+body{
+    font-size: 30px;
+}
+
+.str1{
+    margin-left: 150px;
+    margin-top: 150px;
+    color : rgba(40, 48, 122, 0.74);
+}
+
+.str2{
+    text-align: right;
+    margin-right: 150px;
+    color : rgba(40, 48, 122, 0.74);
+}
+
+.str3 {
+    margin-left: 150px;
+    color :red;
+}
+.str4{
+    text-align: right;
+    margin-right: 150px;
+}
+.color{
+    color:red;
+}
+.str5{
+    margin-left: 150px;
+    color : rgba(40, 48, 122, 0.74);
+    margin-bottom: 150px;
+}

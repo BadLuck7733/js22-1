@@ -1,0 +1,62 @@
+body{
+    background-color:rgb(255, 235, 235)
+}
+.cup{
+    font-size: 100px;
+    text-align: center;
+    text-shadow: 3px 5px 6px rgb(0, 0, 0);
+}
+nav{
+    margin-inline:500px;
+    background-color:#000;
+    margin-top: 30px;
+    color :rgb(255, 255, 255);
+    text-align: center;
+    border-radius:30px;
+    padding: 20px;
+    font-size: 20px;
+}
+nav ul{
+    padding:0;
+	margin:0;
+	list-style: none;
+	position: relative;
+}
+nav ul li {
+    margin: 0px -7px 0 0;
+    display: flex;
+    flex-flow: column wrap;
+    background-color: rgb(0, 0, 0);
+    padding-top: 10px;
+}
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+nav ul ul li {
+    min-width:170px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+.coffee-list{
+    display: none;
+}
+#inp-show-coffee{
+    display: none;
+}
+#inp-show-coffee:checked+.coffee-list{
+    display: block;
+}
+#check1{
+    position:absolute;
+}
+#check2{
+    background-color:#fdfdfd;
+    border-radius:30px;
+    font-size: 20px;
+    color :#000;
+    font-family: 'Montserrat Alternates Light', sans-serif;
+    font-weight: bold;
+}
